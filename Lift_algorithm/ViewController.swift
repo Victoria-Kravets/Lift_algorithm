@@ -12,7 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let countOfFloor = randomInt(min: 5, max: 20)
+        let passengerOnFlore = randomInt(min: 1, max: 10)
+        
+        let lift = Lift(numberFloorsBuilding: countOfFloor, countPassengerOnFloor: passengerOnFlore)
+        let result = lift.startProccess()
+        
+        print("You need \(result) lifts for a \(countOfFloor)-storey building with \(passengerOnFlore) people on each floor")
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,4 +28,5 @@ class ViewController: UIViewController {
 
 
 }
+
 

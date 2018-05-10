@@ -21,9 +21,9 @@ class Lift_algorithmTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testCreatePassenger() {
+        let lift = Lift(numberFloorsBuilding: 5, countPassengerOnFloor: 2)
+        lift.startProccess()
     }
     
     func testPerformanceExample() {

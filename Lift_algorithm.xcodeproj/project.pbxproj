@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8437E45620A4A6E8001B0F97 /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437E45520A4A6E8001B0F97 /* Passenger.swift */; };
+		8437E45820A4A71D001B0F97 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437E45720A4A71D001B0F97 /* Extensions.swift */; };
+		8437E45A20A4BBBF001B0F97 /* PassengerProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437E45920A4BBBF001B0F97 /* PassengerProvider.swift */; };
 		8453544B20A362AF005A3AC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453544A20A362AF005A3AC4 /* AppDelegate.swift */; };
 		8453544D20A362AF005A3AC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453544C20A362AF005A3AC4 /* ViewController.swift */; };
 		8453545020A362AF005A3AC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8453544E20A362AF005A3AC4 /* Main.storyboard */; };
 		8453545220A362AF005A3AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8453545120A362AF005A3AC4 /* Assets.xcassets */; };
 		8453545520A362AF005A3AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8453545320A362AF005A3AC4 /* LaunchScreen.storyboard */; };
 		8453546020A362AF005A3AC4 /* Lift_algorithmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453545F20A362AF005A3AC4 /* Lift_algorithmTests.swift */; };
+		8453546B20A362C6005A3AC4 /* Lift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453546A20A362C6005A3AC4 /* Lift.swift */; };
+		8453546F20A3706F005A3AC4 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453546E20A3706F005A3AC4 /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8437E45520A4A6E8001B0F97 /* Passenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passenger.swift; sourceTree = "<group>"; };
+		8437E45720A4A71D001B0F97 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8437E45920A4BBBF001B0F97 /* PassengerProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerProvider.swift; sourceTree = "<group>"; };
 		8453544720A362AF005A3AC4 /* Lift_algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lift_algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8453544A20A362AF005A3AC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8453544C20A362AF005A3AC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +44,8 @@
 		8453545B20A362AF005A3AC4 /* Lift_algorithmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lift_algorithmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8453545F20A362AF005A3AC4 /* Lift_algorithmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lift_algorithmTests.swift; sourceTree = "<group>"; };
 		8453546120A362AF005A3AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8453546A20A362C6005A3AC4 /* Lift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lift.swift; sourceTree = "<group>"; };
+		8453546E20A3706F005A3AC4 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +87,12 @@
 		8453544920A362AF005A3AC4 /* Lift_algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				8453546C20A3704E005A3AC4 /* Types */,
 				8453544A20A362AF005A3AC4 /* AppDelegate.swift */,
 				8453544C20A362AF005A3AC4 /* ViewController.swift */,
+				8453546A20A362C6005A3AC4 /* Lift.swift */,
+				8437E45520A4A6E8001B0F97 /* Passenger.swift */,
+				8437E45920A4BBBF001B0F97 /* PassengerProvider.swift */,
 				8453544E20A362AF005A3AC4 /* Main.storyboard */,
 				8453545120A362AF005A3AC4 /* Assets.xcassets */,
 				8453545320A362AF005A3AC4 /* LaunchScreen.storyboard */,
@@ -94,6 +108,15 @@
 				8453546120A362AF005A3AC4 /* Info.plist */,
 			);
 			path = Lift_algorithmTests;
+			sourceTree = "<group>";
+		};
+		8453546C20A3704E005A3AC4 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				8453546E20A3706F005A3AC4 /* Functions.swift */,
+				8437E45720A4A71D001B0F97 /* Extensions.swift */,
+			);
+			path = Types;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +222,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8453546B20A362C6005A3AC4 /* Lift.swift in Sources */,
+				8437E45820A4A71D001B0F97 /* Extensions.swift in Sources */,
+				8437E45A20A4BBBF001B0F97 /* PassengerProvider.swift in Sources */,
 				8453544D20A362AF005A3AC4 /* ViewController.swift in Sources */,
+				8437E45620A4A6E8001B0F97 /* Passenger.swift in Sources */,
 				8453544B20A362AF005A3AC4 /* AppDelegate.swift in Sources */,
+				8453546F20A3706F005A3AC4 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
