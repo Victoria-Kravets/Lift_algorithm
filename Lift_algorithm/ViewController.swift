@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         let lift = Lift(numberFloorsBuilding: countOfFloor, countPassengerOnFloor: passengerOnFlore)
         let result = lift.startProccess()
         
-        print("You need \(result) lifts for a \(countOfFloor)-storey building with \(passengerOnFlore) people on each floor")
+        print("You need \(result) lift Up/Down for a \(countOfFloor)-storey building with \(passengerOnFlore) people on each floor")
     }
 
     override func didReceiveMemoryWarning() {
